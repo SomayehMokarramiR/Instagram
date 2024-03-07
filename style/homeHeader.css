@@ -1,0 +1,248 @@
+/* @font-face {
+    font-family: mitra;
+    src: url(../fonts/Mitra.ttf);
+}
+body{
+    font-family: mitra;
+    margin: 0;
+    padding: 0; 
+} */
+#modalHome >.container{
+    width: 1200px;
+    height:2000px;
+    margin: 200px auto;
+    border: 1px solid #ddd;
+    position: relative; 
+}
+#modalHome> .container> #main{
+    height:1900px;
+}
+
+/* Header Top Line */
+#modalHome>.container> #main> #header>.top{
+    display: flex;
+     justify-content: space-between; 
+}
+#modalHome >.container >#main >#header>.top>.left{
+    display: flex;
+    margin-left: 10px;
+}
+#modalHome>.container>#main>#header>.top>.left >.like{
+    position: relative;
+    top:12px;
+    left:20px;
+}
+#modalHome> .container> #main>#header>.top>.right>.arm{
+    position: relative;
+    top:10px
+
+}
+
+/* Header Stories Line */
+#modalHome> .container> #main>#header>.stories{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    border-top:1px solid #ddd;
+    cursor: pointer;
+}
+#modalHome> .container> #main> #header>.stories> .profileImg{
+    width: 120px;
+    height:120px;
+    margin: 10px 20px 0 10px; 
+    width:10%;
+
+}
+#modalHome> .container> #main> #header>.stories> .profileImg img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+} 
+#modalHome> .container> #main> #header>.stories>.profileImg >.plusBtn> img{
+    width: 30px;
+    height:30px;
+    border-radius: 100%;
+    position: relative;
+    top:-30px;
+    right:30px;
+} 
+#modalHome> .container> #main>#header>.stories>.slider{
+    display: flex;
+    overflow: hidden;
+    direction: rtl;
+    width:90%;
+    overflow-x:scroll;
+
+}
+  
+#modalHome> .container> #main>#header>.stories>.slider>.gal{
+    display: flex;
+    width:200%;
+	height:100%;
+
+	transition:.8s;
+	position:relative;
+	left:0%;
+
+} 
+/* #modalHome> .container> #main>#header>.stories>.slider>.gal>.items>.it{
+    margin: 10px; 
+    width:120px;
+    height:120px;
+    border: 1px solid  #ddd;
+    background-color: rgb(194, 191, 191);
+
+    border-radius: 100%;
+
+} */
+#modalHome> .container> #main>#header>.stories>.slider>.gal>.items>.it{
+    margin: 10px; 
+    width:120px;
+    height:120px;
+    border: 3px solid  #f11010;   
+    border-radius: 100%;
+    
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#modalHome> .container> #main>#header>.stories>.slider>.gal>.items>.it>.imgIt{
+    width:115px;
+    height:115px;
+    border: 1px solid  #ddd;
+    background-color: rgb(194, 191, 191);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* #modalHome> .container> #main>#header>.stories>.slider>.gal>.items span{
+    font-size: 15px;
+    font-weight: 200;
+   color:#333;
+} */
+#modalHome> .container> #main>#header>.stories>.slider>.gal>.items>.name{
+    white-space: nowrap;
+   font-size: 16px;
+   font-weight: 250;
+    color:#333;
+    position: relative;
+    top:-10px;
+}
+
+
+/* =========================================================*/
+#modalStory>.container{
+    background:url(../img/aks/17.jpg) no-repeat  ;
+    background-size : 100% 100%;
+    position: absolute;
+    top: -201px;
+    z-index: 10;
+}
+#modalStory>.container>#top{
+    width: 100%;
+    height:70px;
+    display: flex;
+    flex-flow: row nowrap;
+    /* background-color: rgb(208, 208, 247); */
+    position: relative;
+    /* justify-content:space-between; */
+}
+#modalStory>.container>#top>.profileImg{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top:8px;
+
+}
+#modalStory>.container>#top>.profileImg>img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+}
+
+#modalStory>.container>#top>.userName span{
+    width: 200px;
+    font-weight:600;
+    font-size: 20px;
+    /* color: #333; */
+    color: #f0e7e7;
+    display: inline-block;
+    position: absolute;
+    right:104px;
+    top:22px;  
+    /* background-color: red; */
+}
+#modalStory>.container>#top>.treeDot{
+    width: 40px;
+    height:40px;
+    background: url(../img/images/treedot.JPG) no-repeat;
+    position: absolute;
+    left:10px;
+    top:10px; 
+    /* background-color: red; */
+}
+#modalStory>.container>#top>.treeDot img{
+    width:100%;
+    height:100%;
+    /* background: url(../img/images/treedot.JPG) no-repeat; */
+    /* background-color: red; */
+}
+
+#modalStory .container #footerstory{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position:absolute;
+    bottom:30px;
+
+}
+#modalStory .container  #footerstory .left{
+    float:right;
+
+    /* width: 30%; */
+    height:60px;
+    /* background-color: rgb(154, 23, 187);  */
+    /* border: 1px solid #ccc; */
+    display: flex;
+    gap: 20px;
+    /* position: absolute;
+    right:40px;  */
+}
+
+#modalStory .container #footerstory .left .send{
+    width: 50px;
+    height:100%;
+}
+
+#modalStory .container  #footerstory .left.like{
+    width: 50px;
+    background-color: red;   
+}
+#modalStory .container  #footerstory .left.dislike{
+    background-color: #fff;
+}
+#modalStory .container  #footerstory .messageSend{
+    float:left;
+    border:1px solid #ccc;
+    border-radius:50px;
+    width:70%;
+    height:50px;
+}
+#modalStory .container  #footerstory .messageSend span.msg{
+    color:#fff;
+    font-size:24px;
+    float:right;
+    padding:8px 20px 8px;
+}
+
+

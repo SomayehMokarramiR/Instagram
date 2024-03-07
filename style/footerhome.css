@@ -1,0 +1,56 @@
+#modalHome> .container> #main>#footer{
+    width: 100%;
+    height: 70px;
+    background-color:#fff;
+    border-top:2px solid #ddd;
+    
+    background: fixed;  
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+   
+}
+#modalHome> .container> #main>#footer>.myprofile{
+    width: 50px;
+    height: 50px;
+}
+#modalHome> .container> #main>#footer>.myprofile>img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+    position: relative;
+    right:60px
+
+}
+#modalHome> .container> #main>#footer>.Igtv{
+    width:150px;
+    height:100px;
+    background: url(../img/images/igtv.PNG) no-repeat ;
+}
+#modalHome> .container> #main>#footer> .addPost {
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/addmenu.PNG) no-repeat;
+
+  }
+#modalHome> .container> #main> #footer> .search {
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/search.JPG) no-repeat;
+
+  }
+#modalHome> .container> #main>#footer>.home{
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/homeblack.JPG) no-repeat;
+    /* background-size: 100% 100%; */
+     position: relative;
+    left:80px 
+  }
+#modalHome> .container> #main>.contentAlignment{
+    margin: 8px 0;
+  }

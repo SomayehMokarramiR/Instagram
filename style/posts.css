@@ -1,0 +1,202 @@
+/* body{
+    font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif !important;
+    margin: 0;
+    padding: 0; 
+} */
+#modalPosts>.container{
+    width: 1200px;
+    height:2000px;
+    margin: 200px auto;
+    border: 1px solid #ddd;
+
+    position: relative; 
+}
+#modalPosts>.container>#main{
+    height:1900px;
+    /* overflow-y: scroll; */
+}
+#modalPosts>.container>#main>.items{
+    margin-bottom:100px;
+}
+#modalPosts>.container>#main>.items>#top{
+    width: 100%;
+    height:70px;
+    display: flex;
+    flex-flow: row nowrap;
+    /* background-color: rgb(208, 208, 247); */
+    position: relative;
+    /* justify-content:space-between; */
+}
+#modalPosts>.container>#main>.items>#top>.profileImg{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top:8px;
+
+}
+#modalPosts>.container>#main>.items>#top>.profileImg>img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+}
+
+#modalPosts>.container>#main>.items>#top>.userName span{
+    width: 200px;
+    font-weight:600;
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    position: absolute;
+    right:101px;
+    top:22px;  
+    /* background-color: red; */
+}
+#modalPosts>.container>#main>.items>#top>.treeDot{
+    width: 40px;
+    height:40px;
+    background: url(../img/images/treedot.JPG) no-repeat;
+    position: absolute;
+    left:10px;
+    top:10px; 
+    /* background-color: red; */
+}
+#modalPosts>.container>#main>.items>#top>.treeDot img{
+    width:100%;
+    height:100%;
+    /* background: url(../img/images/treedot.JPG) no-repeat; */
+    /* background-color: red; */
+}
+#modalPosts .container #contentPosts{
+    width:100%;
+    /* height:1500px; *//*BarDashtam*/
+    /* height:600px; */
+}
+#modalPosts .container #contentPosts img{
+    width:100%;
+    height:100%;
+    background-size: cover;
+
+    /* background: url(../img/aks/IMG_0105_resize.JPG) no-repeat; */
+   
+
+}
+#modalPosts .container .caption{
+    width:100%;
+    height:400px;
+    font-size:25px;
+    color: #333;
+    direction: rtl;
+    position: absolute;
+    right:10px; 
+}
+ #modalPosts .container .caption  .mtncaption .moreView{
+    color: #a19f9f;
+} 
+
+#modalPosts .container #bottom{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-flow: row nowrap; 
+    /* background-color: rgb(170, 165, 165); */
+}
+#modalPosts .container  #bottom .right{
+    width: 200px;
+    height:60px;
+    /* background-color: rgb(154, 23, 187); */
+    /* border: 1px solid #ccc; */
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right:40px; 
+}
+
+#modalPosts .container #bottom .right .send{
+    width: 50px;
+    height:100%;
+}
+#modalPosts .container #bottom .right .comment{
+    width: 50px;
+    height:100%;
+}
+#modalPosts .container #bottom .right.like{
+    width: 50px;
+    background-color: red;   
+}
+#modalPosts.container #bottom .right.dislike{
+    background-color: #fff;
+}
+
+#modalPosts.container #bottom.left{
+    width: 100px;
+    height:60px;
+    /* background-color: chartreuse; */
+}
+#modalPosts>.container>#bottom>.left>.save{
+    width: 50px;
+    height:100%;
+}
+/* ***************footer********************* */
+#modalPosts .container #footer{
+    width: 100%;
+    height: 70px;
+    background-color:#fff;
+    border-top:2px solid #ddd;
+    
+    background: fixed;
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+   justify-content: space-around; 
+  
+}
+#modalPosts .container #footer.myprofile{
+    width: 50px;
+    height: 50px;
+    /* position: relative;
+    left:26%;
+    top:-33px; */
+
+}
+#modalPosts.container #footer.myprofile img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+    position: relative;
+    right:60px
+
+}
+#modalPosts .container #footer .Igtv{
+    width:150px;
+    height:100px;
+    background: url(../img/images/igtv.PNG) no-repeat ;
+}
+#modalPosts .containe #footer .addPost {
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/addmenu.PNG) no-repeat;
+
+  }
+#modalPosts .container #footer .search {
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/search.JPG) no-repeat;
+
+  }
+#modalPosts .container #footer .home{
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/home.JPG) no-repeat;
+    position: relative;
+    left:100px
+
+  }
+ #modalPosts .container .contentAlignment{
+    margin: 10px 0;
+  }

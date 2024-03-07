@@ -1,0 +1,9 @@
+#modalHome> .container> #main>#content> #bottom>.right>.like{
+    width: 50px;
+    /* background-color: red;    */
+    background: url("../img/images/heart_red.JPG") no-repeat;
+}
+#modalHome> .container> #main>#content> #bottom>.right>.dislike{
+    background-color: #fff;
+    background: url("../img/images/heart1.JPG") no-repeat;
+}

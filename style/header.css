@@ -1,0 +1,295 @@
+@font-face {
+    font-family: sans;
+    src: url(../fonts/IranSans.ttf);
+}
+body{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+    /* font-family: mitra;  */
+    /* font-family: sans; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 0;
+    padding: 0; 
+}
+
+.container{
+    width: 1200px;
+    height: 2000px;
+    margin: 200px auto;
+    border: 1px solid #ddd;
+    /* background-color: cyan;  */
+
+    position: relative; 
+}
+#main{
+    /* position: relative;  */
+    width: 100%;;
+    height: 1930px;
+}
+#header{
+    width: 100%;
+    height: 320px;
+    border: 1 solid #333;
+    /* background-color: rgb(21, 255, 0);  */
+    position: relative;
+
+    
+}
+/* ***** Top ***** */
+#header>.top{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap; 
+}
+
+#header>.top>.profile>.userName{
+    width: 250px;
+    font-weight:600;
+    font-size: 30px; 
+    color: #333;
+    position: absolute;
+    /* right:38px;  */
+    right:101px; 
+    top:5px;
+    
+    /* font-family: tahoma;
+    font-size: 28px; */
+}
+#header>.top>.profile>.name{
+    width: 50px;
+    font-weight:600;
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    right:38px; 
+    top:220px;
+    z-index: 1;
+}
+#header>.top>.menuAdd{
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/addmenu.PNG) no-repeat;
+    margin-left: -40px;
+
+    position: relative;
+    top:5px;
+}
+#header>.top>.menuAdd>img{
+    width: 100%;
+    height: 100%;
+}
+#header>.top>.menuHambergery{
+    width: 100px;
+    height: 100px;
+    background: url(../img/images/hamburgery.PNG)no-repeat;
+    margin-left: 10px;
+
+    position: relative;
+    top:5px;
+}
+
+/* ***** Center ***** */
+
+#header>.center{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap; 
+}
+#header>.center>.following{
+    width:20%;
+}
+#header>.center>.following span{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+
+}
+
+#header>.center>.following span.rowOne{
+    font-weight:500;
+    font-size:30px;
+    color:rgb(97, 93, 93);
+}
+#header>.center>.following span.rowTwo{
+    /* font-weight:300; */
+    font-size:30px;
+    color:rgb(163 151 151);
+
+}
+#header>.center>.follower{
+    width:20%;
+}
+#header>.center>.follower span{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+}
+#header>.center>.follower span.rowOne{
+    font-weight:500;
+    font-size:30px;
+    color:rgb(97, 93, 93);
+}
+#header>.center>.follower span.rowTwo{
+    font-weight:300;
+    font-size:30px;
+    color:rgb(163 151 151);
+}
+#header>.center>.numberPost{
+    width:20%;
+}
+#header>.center>.profileImg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left:26%;
+    top:-33px;
+}
+#header>.center>.profileImg>img{
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+
+}
+#header>.center>.numberPost span{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+}
+#header>.center>.numberPost span.rowOne{
+    font-weight:500;
+    font-size:30px;
+    color:rgb(97, 93, 93);
+}
+#header>.center>.numberPost span.rowTwo{
+    font-weight:300;
+    font-size:30px;
+    color:rgb(163 151 151);
+}
+/* ***** Bottom ***** */
+#header>.bottom{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content:space-evenly;
+     margin-top:5px; 
+    /* background-color: darksalmon; */
+}
+/* #header>.bottom>.findPepole{
+    width: 70px;
+    padding:15px 0;
+    border: 1px solid rgb(241, 245, 243);
+    background-color: rgb(241, 245, 243);
+    border-radius:8px;
+   background: url(../img/images/findUser.PNG) no-repeat 50% 50%;
+   background-image: rgb(241, 245, 243); 
+   background-size: 80%;
+} */
+#header>.bottom>.findPepole{
+    width: 70px;
+    padding:15px 0;
+    border: 1px solid rgb(241, 245, 243);
+    background-color: rgb(241, 245, 243);
+    border-radius:15px;
+}
+#header>.bottom>.findPepole>.imgDiv{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header>.bottom>.findPepole>.imgDiv>img{
+    background-size:150%;
+    background-position: 50% 50%;
+}
+#header>.bottom>.sharePrpfile{
+    width: 510px;
+    padding:15px 0;
+    border: 1px solid #fff;
+    background-color: rgb(241, 245, 243);
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 17px;
+    color:rgb(58, 56, 56);
+}
+#header>.bottom>.editProfile{  
+    width: 510px;
+    padding:15px 0;
+    border: 1px solid  #fff;
+    background-color: rgb(241, 245, 243);
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 17px;
+    color:rgb(58, 56, 56);
+    font-weight: 300;
+}
+/* heighlight */
+#heighlight{
+    width: 100%;
+    height: 200px;
+    /* background-color: honeydew; */
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#heighlight>.items>.it{
+    margin: 10px; 
+
+    width:120px;
+    height:120px;
+    border: 1px solid  #ddd;
+    background-color: rgb(194, 191, 191);
+    border-radius: 100%;
+
+}
+#heighlight>.items span{
+    font-size: 15px;
+    font-weight: 200;
+   color:#333;
+}
+#heighlight >.new> .btnAdd{
+    margin: 10px; 
+
+    width:120px;
+    height:120px;
+    border: 1px solid  #ddd;
+    background-color: rgb(238, 231, 231);
+    border-radius: 100%;
+    font-size: 15px;
+    color: #333;
+    background: url(../img/images/addIcon.PNG) no-repeat ;
+    background-size: 40px;
+    background-position:50% 50% ;
+
+}
+#heighlight >.new span{
+    font-size: 16px;
+    font-weight: 200;
+    color:#333;
+}
+#Menu{
+    width: 100%;
+    height: 40px;
+    /* background-color: darkorchid; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 0px 58px;
+}
+#Menu>.user{
+    width:150px;
+    height:40px;
+    background: url(../img/images/posts.PNG) no-repeat ;
+}
+#Menu>.Igtv{
+    width:150px;
+    height:40px;
+    background: url(../img/images/igtv.PNG) no-repeat ;
+}
+#Menu>.posts{
+    width:150px;
+    height:40px;
+    background: url(../img/images/userMenu.JPG) no-repeat ;
+}
